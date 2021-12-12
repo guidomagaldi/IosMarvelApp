@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FQa-cF-pA0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="SplashViewController" customModule="Marvel_App_GM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marvel BG" translatesAutoresizingMaskIntoConstraints="NO" id="8m6-KN-rWB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="XA8-oc-XWh">
+                                <rect key="frame" x="0.0" y="825" width="414" height="37"/>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8m6-KN-rWB" secondAttribute="trailing" id="Ccm-W7-QFU"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="XA8-oc-XWh" secondAttribute="bottom" id="P1n-jS-JFY"/>
+                            <constraint firstItem="XA8-oc-XWh" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Q0k-XH-k56"/>
+                            <constraint firstItem="XA8-oc-XWh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="X4z-JR-k08"/>
+                            <constraint firstItem="8m6-KN-rWB" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="XxZ-ft-0PX"/>
+                            <constraint firstAttribute="bottom" secondItem="8m6-KN-rWB" secondAttribute="bottom" id="Ycr-Cz-0nG"/>
+                            <constraint firstItem="8m6-KN-rWB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cVU-uu-GB9"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="XA8-oc-XWh" secondAttribute="trailing" id="dWp-47-y1g"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Nt-i5-VVC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939.13043478260875" y="83.705357142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SBe-vk-npy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FQa-cF-pA0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DSM-0l-Wcd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="Udh-aA-czz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pyg-sq-X4e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Marvel BG" width="500" height="888"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
