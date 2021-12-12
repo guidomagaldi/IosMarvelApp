@@ -34,30 +34,30 @@
                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5UJ-GA-NZz">
                                                     <rect key="frame" x="16" y="8" width="382" height="134"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="002-sais" translatesAutoresizingMaskIntoConstraints="NO" id="6yo-Nx-yVL">
-                                                            <rect key="frame" x="8" y="8" width="118" height="118"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="villano_thanos" translatesAutoresizingMaskIntoConstraints="NO" id="6yo-Nx-yVL">
+                                                            <rect key="frame" x="0.0" y="0.0" width="118" height="134"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="6yo-Nx-yVL" secondAttribute="height" multiplier="1:1" id="5xQ-yh-ZPU"/>
                                                                 <constraint firstAttribute="width" constant="118" id="RlJ-ux-57b"/>
                                                             </constraints>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ogA-Tw-qxN">
-                                                            <rect key="frame" x="134" y="8" width="240" height="118"/>
+                                                            <rect key="frame" x="126" y="8" width="248" height="118"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdo-Sj-EJq">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="39.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="248" height="39.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCI-Dz-0YS">
-                                                                    <rect key="frame" x="0.0" y="39.5" width="240" height="39"/>
+                                                                    <rect key="frame" x="0.0" y="39.5" width="248" height="39"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelkjgnbksdgksfjg dfjgndfkgjdfgkjdfg fdgjkdnfgkjdfngdf gkdjfngkdjfg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scw-Cn-Pyh">
-                                                                    <rect key="frame" x="0.0" y="78.5" width="240" height="39.5"/>
+                                                                    <rect key="frame" x="0.0" y="78.5" width="248" height="39.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -68,11 +68,11 @@
                                                     <color key="backgroundColor" white="0.88685161560000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="bottom" secondItem="ogA-Tw-qxN" secondAttribute="bottom" constant="8" id="1uA-UV-hRW"/>
-                                                        <constraint firstItem="6yo-Nx-yVL" firstAttribute="leading" secondItem="5UJ-GA-NZz" secondAttribute="leading" constant="8" id="C3y-vs-XLv"/>
+                                                        <constraint firstItem="6yo-Nx-yVL" firstAttribute="leading" secondItem="5UJ-GA-NZz" secondAttribute="leading" id="C3y-vs-XLv"/>
                                                         <constraint firstItem="ogA-Tw-qxN" firstAttribute="top" secondItem="5UJ-GA-NZz" secondAttribute="top" constant="8" id="Hc8-NY-X4J"/>
                                                         <constraint firstAttribute="trailing" secondItem="ogA-Tw-qxN" secondAttribute="trailing" constant="8" id="J4S-Ht-D05"/>
-                                                        <constraint firstAttribute="bottom" secondItem="6yo-Nx-yVL" secondAttribute="bottom" constant="8" id="bs2-b0-BqQ"/>
-                                                        <constraint firstItem="6yo-Nx-yVL" firstAttribute="top" secondItem="5UJ-GA-NZz" secondAttribute="top" constant="8" id="mxK-9M-alk"/>
+                                                        <constraint firstAttribute="bottom" secondItem="6yo-Nx-yVL" secondAttribute="bottom" id="bs2-b0-BqQ"/>
+                                                        <constraint firstItem="6yo-Nx-yVL" firstAttribute="top" secondItem="5UJ-GA-NZz" secondAttribute="top" id="mxK-9M-alk"/>
                                                         <constraint firstItem="ogA-Tw-qxN" firstAttribute="leading" secondItem="6yo-Nx-yVL" secondAttribute="trailing" constant="8" id="oAE-gs-Un3"/>
                                                         <constraint firstItem="ogA-Tw-qxN" firstAttribute="leading" secondItem="6yo-Nx-yVL" secondAttribute="trailing" constant="8" id="ogI-AE-iv7"/>
                                                     </constraints>
@@ -269,6 +269,7 @@
         <image name="7gE3jF" width="1920" height="1080"/>
         <image name="BkEQF6" width="1440" height="900"/>
         <image name="heroe_ironman" width="110" height="120"/>
+        <image name="villano_thanos" width="200" height="201"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
